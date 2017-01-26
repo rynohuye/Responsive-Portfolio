@@ -32,7 +32,8 @@ header nav{
   height: 50px;
   text-align: center;
   margin-left: 5px;
-  word-spacing: 5em;
+  border-right: 1px solid gray;
+  border-right: none;
 }
 
   body .main-section {
