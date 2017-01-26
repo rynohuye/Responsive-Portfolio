@@ -25,7 +25,6 @@ header #logo {
   margin: auto;
   width: 100%;
   height: 90px;
-
 }
 
 header nav{
@@ -35,6 +34,7 @@ header nav{
   margin-left: 5px;
   word-spacing: 5em;
 }
+
   body .main-section {
     width: 100%;
     max-width: 93%;
@@ -50,67 +50,78 @@ header nav{
     margin: auto;
     float: none;
     margin-bottom: 30px;
+}
+
+body .work {
+  width: 100%;
+  float: none;
 }
 
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
 
-  #main-container{
+    #main-container{
+      width: 85%;
+    }
+
+    body .main-section {
     width: 100%;
-  }
+    float: left;
+    padding: 30px;
+    margin-bottom: 30px;
+    }
 
-  #logo {
-    margin-left: 30px;
-  }
+    #logo{
+      margin-left: 70px;
+    }
 
-  nav{
-    margin-right: 40px;
-  }
+    nav{
+      margin-right: 155px;
+    }
 
-  body .main-section {
+    body .main-section {
     width: 100%;
-    max-width: 93%;
     margin: auto;
     float: none;
     margin-bottom: 30px;
-
-  }
+    }
 
   body .sidebar {
-    width: 100%;
-    max-width: 93%;
+    max-width: 100%;
     margin: auto;
     float: none;
     margin-bottom: 30px;
   }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
 
-#main-container{
-  width: 85%;
-}
+  #main-container{
+  width: 100%;
+  }
 
   body .main-section {
-  width: 52%;
+  width: 450px;
   float: left;
   padding: 30px;
+  margin-left: 80px; 
   margin-bottom: 30px;
   }
 
   #logo{
-    margin-left: 70px;
+    margin-left: 90px;
   }
 
   nav{
-    margin-right: 155px;
+    margin-right: 120px;
   }
 
   body .sidebar {
     width: 48%;
     padding: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
     float: left;
     margin-bottom: 20px;
   }
